@@ -61,6 +61,8 @@ DONE#
 - [x] Run RSpec from the Command Line
 - [x] Explain to your pair partner the difference between what you see, and the error you saw before.
 
+DONE#
+
 7. Back to the feature
 
 - [x] Start irb (or any other REPL) from the Command Line
@@ -69,3 +71,17 @@ DONE#
 - [x] Explain to your pair partner why you do not see an error now, when you did before
 - [x] Ask the docking_station instance to release_bike
 - [x] Explain to your pair partner what the resulting error means.
+
+DONE#
+
+8. Back to the Unit
+
+- [x] Add a test to your spec file that expects DockingStation instances to respond_to the method release_bike
+- [x] Rewrite this test using RSpec's one-liner syntax
+- [x] Run RSpec from the Command Line
+- [x] Explain the error to your pair partner
+    - *no method release_bike, so cannot find it*
+- [x] Add a method release_bike to the DockingStation class
+- [x] Run RSpec from the Command Line
+- [x] Explain to your pair partner the difference between what you see, and the error you saw before.
+  - we now have a method so it finds it and can run the test
