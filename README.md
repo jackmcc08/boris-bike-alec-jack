@@ -28,3 +28,17 @@ DONE#
   - error message essentially said that the constant did not exist and could not be found in the ruby language, the irb or any gems.
 
 DONE#
+
+4. Errors are good
+- [x] Write down the type of error
+  - uninitalized constant
+- [x] Write down the file path where the error happened
+  - /Users/jackmccarthy/.rvm/rubies/ruby-2.7.2/bin/irb:23:in <main>
+- [x] Write down the line number of the error
+  - Line 1 (in IRB)
+- [x] Use the Ruby Documentation to find out what the error means
+  - the Constant has not been defined
+- [x] Suggest one way of solving the error.
+  - Create a constant !
+
+DONE#
