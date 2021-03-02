@@ -42,3 +42,13 @@ DONE#
   - Create a constant !
 
 DONE#
+
+4. From Feature Test to unit Test
+- [x] Initialise RSpec within your project
+- [x] Create a new spec file for your DockingStation object
+- [x] Set up the spec file to describe a DockingStation
+- [x] Run RSpec from the Command Line
+- [x] Explain to your pair partner the difference between this error and the error you saw before.
+  - No method created to release the bike
+
+DONE#
