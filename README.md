@@ -43,7 +43,7 @@ DONE#
 
 DONE#
 
-4. From Feature Test to unit Test
+5. From Feature Test to unit Test
 - [x] Initialise RSpec within your project
 - [x] Create a new spec file for your DockingStation object
 - [x] Set up the spec file to describe a DockingStation
@@ -52,3 +52,11 @@ DONE#
   - No method created to release the bike
 
 DONE#
+
+6. Passing your first Unit Test
+
+- [x] Create a new file for a Docking Station class, inside the /lib directory
+- [x] Define a DockingStation class
+- [x] Use require to include this file inside your spec file
+- [x] Run RSpec from the Command Line
+- [x] Explain to your pair partner the difference between what you see, and the error you saw before.
