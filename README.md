@@ -60,3 +60,12 @@ DONE#
 - [x] Use require to include this file inside your spec file
 - [x] Run RSpec from the Command Line
 - [x] Explain to your pair partner the difference between what you see, and the error you saw before.
+
+7. Back to the feature
+
+- [x] Start irb (or any other REPL) from the Command Line
+- [x] Use require to include the file that contains the DockingStation class definition
+- [x] Set a variable docking_station equal to a new DockingStation object
+- [x] Explain to your pair partner why you do not see an error now, when you did before
+- [x] Ask the docking_station instance to release_bike
+- [x] Explain to your pair partner what the resulting error means.
