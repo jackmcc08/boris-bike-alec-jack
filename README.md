@@ -85,3 +85,17 @@ DONE#
 - [x] Run RSpec from the Command Line
 - [x] Explain to your pair partner the difference between what you see, and the error you saw before.
   - we now have a method so it finds it and can run the test
+
+  9. Building a bike
+- [x] Start irb (or another REPL such as 💊 Pry)
+- [x] Instantiate a DockingStation as docking_station
+- [x] Ask docking_station to release a bike, and save the response to a variable bike
+- [x] Ask the bike if it is working?
+- [x] Explain the error to your pair partner
+  - *unable to find method .working?, no Bike class*
+- [x] Create a new spec file for a Bike class
+- [x] Set up the spec file to describe the Bike class
+- [x] Run RSpec from the Command Line
+- [ ] Fix the error you see, similarly to how you fixed the same error for DockingStation
+- [ ] Add a test to your bike_spec.rb file that expects Bike instances to respond_to the method working?
+- [ ] Make this test pass.
