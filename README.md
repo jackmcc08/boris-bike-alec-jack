@@ -1,23 +1,31 @@
+# BORIS BIKES by Max and Jack | Makers Week 1
+
 Create a program that creates a network of docking stations and bikes that anyone can do.
 
-CHALLENGES
+## Build Status
+
+This program is a fork of crotcheycrows repo where challenges 1 through 9 (almost) were completed.
+
+This fork will be used to progress the project beyond challenge 9 for the rest of the Wednesday.
+
+## CHALLENGES COMPLETED
 1. Setting up a project
-- Create a directory from the command line
-- Initialise a git repository within that directory
-- Create a README.md file from the command line
-- Write a clear README
-- Add the README.md to the staging area
-- Commit your changes with a clear message
-- Push the project to Github.
+- [x] Create a directory from the command line
+- [x] Initialise a git repository within that directory
+- [x] Create a README.md file from the command line
+- [x] Write a clear README
+- [x] Add the README.md to the staging area
+- [x] Commit your changes with a clear message
+- [x] Push the project to Github.
 
 DONE#
 
 2. From user stories to a domain model
-- Write down all the nouns in the User Stories
-- Write down all the verbs in the User Stories
-- Draw a table like the one above
-- Organise the nouns and verbs into Objects and Messages within the table
-- Draw a diagram that shows how your Objects will use Messages to communicate with one another
+- [x] Write down all the nouns in the User Stories
+- [x] Write down all the verbs in the User Stories
+- [x] Draw a table like the one above
+- [x] Organise the nouns and verbs into Objects and Messages within the table
+- [x]  Draw a diagram that shows how your Objects will use Messages to communicate with one another
 
 DONE#
 
@@ -86,7 +94,9 @@ DONE#
 - [x] Explain to your pair partner the difference between what you see, and the error you saw before.
   - we now have a method so it finds it and can run the test
 
-  9. Building a bike
+DONE#
+
+9. Building a bike
 - [x] Start irb (or another REPL such as 💊 Pry)
 - [x] Instantiate a DockingStation as docking_station
 - [x] Ask docking_station to release a bike, and save the response to a variable bike
@@ -99,3 +109,7 @@ DONE#
 - [ ] Fix the error you see, similarly to how you fixed the same error for DockingStation
 - [ ] Add a test to your bike_spec.rb file that expects Bike instances to respond_to the method working?
 - [ ] Make this test pass.
+
+
+
+10. 
