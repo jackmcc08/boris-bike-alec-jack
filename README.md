@@ -124,14 +124,14 @@ DONE#
 
 11.  Using Instance Variables
 
-- [] Write a feature test for docking a bike at a docking station
-- [] Write a unit test for the method you need to
+- [x] Write a feature test for docking a bike at a docking station
+- [x] Write a unit test for the method you need to
   add to DockingStation to make docking possible
-  *When unit test run, .doc_bike return the bike id to us
-- [] Pass both tests
-- [] Use an instance variable with attr_reader to do
-  a full test-implementation cycle for the second User
-- [] Story above
+  - *When unit test run, .doc_bike return the bike id to us*
+- [x] Pass both tests
+- [x] Use an instance variable with attr_reader to do
+  a full test-implementation cycle for the second User Story above
+    - *added tests which docked a bike, checked bike was included in the bikes array, and inspected the bikes array*
 
 As a member of the public
 So I can return bikes I've hired
@@ -142,3 +142,15 @@ objects ------- messages
 user            
 bike             is_returned?
 dockings station docks.bike
+
+As a member of the public
+So I can decide whether to use the docking station
+I want to see a bike that has been docked
+
+objects -------- messages
+
+user
+docking station  List.bikes
+docking_station.List specific_bike
+
+DONE#

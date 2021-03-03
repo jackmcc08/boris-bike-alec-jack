@@ -1,6 +1,6 @@
 |**Objects**|**Messages**|
 |-------|--------|
-|person | |
+|person |           |
 |bike   |is_working?|
 |docking station |release_bike|
 
