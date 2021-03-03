@@ -176,3 +176,22 @@ Object ------------------ Message
 User
 docking_station.bike       true?     OR     false
 docking)station            release_bike?    error
+
+DONE#
+
+13. Limiting Capacity
+
+- [ ] Deliver the feature above in a Test-Driven manner
+
+As a maintainer of the system,
+So that I can control the distribution of bikes,
+I'd like docking stations not to accept more bikes than their capacity.
+
+objects ---------------- Message
+Maintainer
+docking_station.bike == 1
+docking_station.dock_bike fail
+
+Write RSpec tests that expect errors
+Use fail or raise to raise an error
+Use a 'guard condition'

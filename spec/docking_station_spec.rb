@@ -42,6 +42,19 @@ describe "DockingStation" do
   end
 end
 
+describe DockingStation do
+  test_station = DockingStation.new
+  bike = Bike.new
+  it "allows you to dock a bike when the docking station is empty" do
+    expect(test_station.dock_bike(bike)).to eq bike
+  end
+
+  # test_station.dock_bike(Bike.new)
+
+  it "raises an error when trying to dock at a station which already has one bike" do
+    expect{test_station.dock_bike(Bike.new)}.to raise_error("The station is full")
+  end
+end
 
 
 
