@@ -154,3 +154,25 @@ docking station  List.bikes
 docking_station.List specific_bike
 
 DONE#
+
+12. Raising Exceptions
+
+- [x] Feature test the feature you are building using irb
+- [x] Use {} and raise_error syntax in your RSpec unit test to
+  test exception raising
+- [x] Use the fail or raise keyword to raise an exception in your
+  code (not your tests)
+- [x] Make the test pass by raising an exception
+- [x] Explain why you use curly braces in the RSpec error handling
+  syntax to your partner
+- [x] Feature-test the feature again.
+
+As a member of the public,
+So that I am not confused and charged unnecessarily,
+I'd like docking stations not to release bikes when there are none available.
+
+Object ------------------ Message
+
+User
+docking_station.bike       true?     OR     false
+docking)station            release_bike?    error

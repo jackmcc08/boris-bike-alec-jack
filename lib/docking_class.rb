@@ -17,6 +17,9 @@ class DockingStation
   # # end
 
   def release_bike
+    unless self.bikes.length > 0
+      raise("No bikes available")
+    end
     bike = Bike.new
     return bike
   end
