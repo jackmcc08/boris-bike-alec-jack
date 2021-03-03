@@ -1,4 +1,4 @@
-require "bike_class"
+require "./lib/bike_class.rb"
 
 class DockingStation
   def release_bike

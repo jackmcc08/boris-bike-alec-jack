@@ -100,16 +100,24 @@ DONE#
 - [x] Start irb (or another REPL such as 💊 Pry)
 - [x] Instantiate a DockingStation as docking_station
 - [x] Ask docking_station to release a bike, and save the response to a variable bike
+    - *Max fixed - changed docking station to create a new bike object.*
 - [x] Ask the bike if it is working?
 - [x] Explain the error to your pair partner
   - *unable to find method .working?, no Bike class*
 - [x] Create a new spec file for a Bike class
 - [x] Set up the spec file to describe the Bike class
 - [x] Run RSpec from the Command Line
-- [ ] Fix the error you see, similarly to how you fixed the same error for DockingStation
-- [ ] Add a test to your bike_spec.rb file that expects Bike instances to respond_to the method working?
-- [ ] Make this test pass.
+- [x] Fix the error you see, similarly to how you fixed the same error for DockingStation
+- [x] Add a test to your bike_spec.rb file that expects Bike instances to respond_to the method working?
+- [x] Make this test pass.
 
+DONE#
 
+10. Making Docking Stations Release Bikes
+- [x]  Feature-test the feature you are building using irb
+- [x]  Explain the error to your pair partner
+- [x]  Add a test to your DockingStation specification that a) gets a bike, and then b) expects the bike to be working
+- [x]  Make this test pass
+- [x]  Feature-test the feature again.
 
-10. 
+DONE#

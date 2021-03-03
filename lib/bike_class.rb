@@ -2,6 +2,6 @@
 
 class Bike
   def working?
-    @working = "Working"
+    @working = false
   end
 end

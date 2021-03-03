@@ -1,7 +1,7 @@
-require "bike_class.rb"
+require "bike_class"
 
 describe "Bike" do
   test_bike = Bike.new
   # test_station = DockingStation.new
-  it { expect(test_bike.working?).to eq "Working" }
+  it { expect(test_bike).to be_working }
 end
