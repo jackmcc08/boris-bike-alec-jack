@@ -6,7 +6,9 @@ Create a program that creates a network of docking stations and bikes that anyon
 
 This program is a fork of crotcheycrows repo where challenges 1 through 9 (almost) were completed.
 
-This fork will be used to progress the project beyond challenge 9 for the rest of the Wednesday.
+Update (end Wednesday): Max and I got to end of challenge 13.
+
+
 
 ## CHALLENGES COMPLETED
 1. Setting up a project
@@ -181,7 +183,7 @@ DONE#
 
 13. Limiting Capacity
 
-- [ ] Deliver the feature above in a Test-Driven manner
+- [x] Deliver the feature above in a Test-Driven manner
 
 As a maintainer of the system,
 So that I can control the distribution of bikes,
@@ -195,3 +197,5 @@ docking_station.dock_bike fail
 Write RSpec tests that expect errors
 Use fail or raise to raise an error
 Use a 'guard condition'
+
+DONE#
