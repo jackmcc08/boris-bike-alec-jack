@@ -1,5 +1,8 @@
+require "bike_class"
+
 class DockingStation
   def release_bike
-    return "release the bike"
+    bike = Bike.new
+    return bike
   end
 end
