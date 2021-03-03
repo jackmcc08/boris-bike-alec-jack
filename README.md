@@ -121,3 +121,24 @@ DONE#
 - [x]  Feature-test the feature again.
 
 DONE#
+
+11.  Using Instance Variables
+
+- [] Write a feature test for docking a bike at a docking station
+- [] Write a unit test for the method you need to
+  add to DockingStation to make docking possible
+  *When unit test run, .doc_bike return the bike id to us
+- [] Pass both tests
+- [] Use an instance variable with attr_reader to do
+  a full test-implementation cycle for the second User
+- [] Story above
+
+As a member of the public
+So I can return bikes I've hired
+I want to dock my bike at the docking station
+
+objects ------- messages
+
+user            
+bike             is_returned?
+dockings station docks.bike
