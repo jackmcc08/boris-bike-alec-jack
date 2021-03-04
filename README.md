@@ -1,4 +1,4 @@
-# BORIS BIKES by Max and Jack | Makers Week 1
+# BORIS BIKES by Alec and Jack | Makers Week 1 - Thurday Pairing session
 
 Create a program that creates a network of docking stations and bikes that anyone can do.
 
@@ -7,6 +7,8 @@ Create a program that creates a network of docking stations and bikes that anyon
 This program is a fork of crotcheycrows repo where challenges 1 through 9 (almost) were completed.
 
 Update (end Wednesday): Max and I got to end of challenge 13.
+
+To do: Thursday - Alec and Jack pair programming on this from challenge 14 onwards
 
 
 
