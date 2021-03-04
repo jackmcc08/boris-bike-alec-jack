@@ -8,7 +8,7 @@ This program is a fork of crotcheycrows repo where challenges 1 through 9 (almos
 
 Update (end Wednesday): Max and I got to end of challenge 13.
 
-To do: Thursday - Alec and Jack pair programming on this from challenge 14 onwards
+Update (end Thursday) - Alec and Jack got to a third-way through challenge 18. 
 
 
 
