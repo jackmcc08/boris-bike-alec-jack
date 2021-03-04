@@ -201,3 +201,17 @@ Use fail or raise to raise an error
 Use a 'guard condition'
 
 DONE#
+
+14. Wrapping Collections
+
+- [ ] Write a manual feature test for the above feature. Consider using 20.times { docking_station.dock Bike.new }.
+- [ ] Rename your attribute @bike to a name better reflecting that it will store more than one Bike instance.
+- [ ] Use rspec to identify areas of your code that need to be updated to use this new attribute name.
+- [ ] Update your existing tests to recognise this new name for the attribute.
+- [ ] Use an initialize function to set the initial value of this attribute to a simple collection object: an empty array.
+- [ ] Update your release_bike and dock methods to work with this new array (i.e. make your tests pass).
+- [ ] Update your release_bike and dock guard conditions to account for the new capacity of 20 bikes.
+
+
+Wrap a collection in a class
+Set an initial attribute value using initialize
