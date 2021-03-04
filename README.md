@@ -204,14 +204,22 @@ DONE#
 
 14. Wrapping Collections
 
-- [ ] Write a manual feature test for the above feature. Consider using 20.times { docking_station.dock Bike.new }.
-- [ ] Rename your attribute @bike to a name better reflecting that it will store more than one Bike instance.
-- [ ] Use rspec to identify areas of your code that need to be updated to use this new attribute name.
-- [ ] Update your existing tests to recognise this new name for the attribute.
-- [ ] Use an initialize function to set the initial value of this attribute to a simple collection object: an empty array.
-- [ ] Update your release_bike and dock methods to work with this new array (i.e. make your tests pass).
-- [ ] Update your release_bike and dock guard conditions to account for the new capacity of 20 bikes.
+- [x] Write a manual feature test for the above feature. Consider using 20.times { docking_station.dock Bike.new }.
+- [x] Rename your attribute @bike to a name better reflecting that it will store more than one Bike instance.
+- [x] Use rspec to identify areas of your code that need to be updated to use this new attribute name.
+- [x] Update your existing tests to recognise this new name for the attribute.
+- [x] Use an initialize function to set the initial value of this attribute to a simple collection object: an empty array.
+- [x] Update your release_bike and dock methods to work with this new array (i.e. make your tests pass).
+- [x] Update your release_bike and dock guard conditions to account for the new capacity of 20 bikes.
 
 
 Wrap a collection in a class
 Set an initial attribute value using initialize
+
+As a system maintainer,
+So that I can plan the distribution of bikes,
+I want a docking station to have a default capacity of 20 bikes.
+
+DONE#
+
+15. 
