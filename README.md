@@ -259,3 +259,31 @@ DONE#
 - [x] Write a feature test that ensures a default capacity of `20` is set when no parameters are passed to `DockingStation.new`
 - [x] Create a unit test for this default capacity
 - [x] Use a default argument value within the `initialize` method to make this test pass.
+
+DONE#
+
+18. Dealing with broken bikes
+
+- [ ] Complete the Red-Green-Refactor TDD cycle for each of the features above.
+
+As a member of the public,
+So that I reduce the chance of getting a broken bike in future,
+I'd like to report a bike as broken when I return it.
+
+Public
+Bike - is broken
+Docking_station - report broken bike
+
+ANSWERED - implemented this user story
+
+As a maintainer of the system,
+So that I can manage broken bikes and not disappoint users,
+I'd like docking stations not to release broken bikes.
+
+maintainer
+bike not_working
+docking station - does not release bike
+
+As a maintainer of the system,
+So that I can manage broken bikes and not disappoint users,
+I'd like docking stations to accept returning bikes (broken or not).

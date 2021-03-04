@@ -17,7 +17,7 @@ DEFAULT_CAPACITY = 20
     bike
   end
 
-  def dock_bike(bike)
+  def dock_bike(bike, broken=false)
     raise("The station is full") if self.full?
     self.bikes << bike
     bike

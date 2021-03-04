@@ -71,6 +71,15 @@ describe DockingStation do
   end
 end
 
+describe  DockingStation do
+
+  it "allows user to report the bike broken when returning the bike" do
+    bank_dock = DockingStation.new
+    bike = Bike.new
+    expect(bank_dock.dock_bike(bike, true)).to eq bike
+  end
+
+end
 
 
 
