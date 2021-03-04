@@ -234,4 +234,13 @@ Refactor code for readability
 
 DONE#
 
-16.
+16. Removing 'magic numbers'
+
+### Learning Objectives covered
+- Use a constant
+
+### To complete this challenge, you will need to:
+
+- [x] Define a constant, `DEFAULT_CAPACITY`, that stores the number `20`. Do this within the `DockingStation` class.
+- [x] Remove references to the magic number `20` in your implementation, using `DEFAULT_CAPACITY` instead.
+- [x] Refactor your tests to use this new constant instead of the magic number `20`.

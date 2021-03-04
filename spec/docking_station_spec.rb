@@ -43,7 +43,7 @@ end
 describe DockingStation do
   test_station = DockingStation.new
   bike = Bike.new
-  19.times do
+  (DockingStation::DEFAULT_CAPACITY - 1).times do
     test_station.dock_bike(Bike.new)
   end
 
@@ -51,7 +51,7 @@ describe DockingStation do
     expect(test_station.dock_bike(bike)).to eq bike
   end
 
-  it "raises an error when trying to dock at a station which already has more than 20 bike" do
+  it "raises an error when trying to dock at a station which already has more than DEFAULT_CAPACITY" do
     expect{test_station.dock_bike(Bike.new)}.to raise_error("The station is full")
   end
 end
