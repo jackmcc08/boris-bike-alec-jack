@@ -4,12 +4,12 @@ require "./lib/bike_class.rb"
 class DockingStation
 
 DEFAULT_CAPACITY = 20
-
-  def initialize
+  def initialize(cap=DEFAULT_CAPACITY)
     @bikes = []
+    @capacity = cap
   end
 
-  attr_reader 'bikes', 'DEFAULT_CAPACITY'
+  attr_reader 'bikes', 'DEFAULT_CAPACITY', 'capacity'
 
   def release_bike
     raise("No bikes available") if self.empty?

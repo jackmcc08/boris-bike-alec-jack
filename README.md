@@ -244,3 +244,18 @@ DONE#
 - [x] Define a constant, `DEFAULT_CAPACITY`, that stores the number `20`. Do this within the `DockingStation` class.
 - [x] Remove references to the magic number `20` in your implementation, using `DEFAULT_CAPACITY` instead.
 - [x] Refactor your tests to use this new constant instead of the magic number `20`.
+
+17. Initialisation defaults
+
+### Learning Objectives covered
+- Set an initial attribute value using `initialize`
+- Set a default initialisation value
+
+### To complete this challenge, you will need to:
+
+- [x] Write a feature test that allows a user to set a `@capacity` instance variable when `DockingStation.new` is called.
+- [x] Create Unit tests for this
+- [x] Implement the functionality in your code.
+- [x] Write a feature test that ensures a default capacity of `20` is set when no parameters are passed to `DockingStation.new`
+- [x] Create a unit test for this default capacity
+- [x] Use a default argument value within the `initialize` method to make this test pass.

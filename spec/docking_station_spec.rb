@@ -54,6 +54,21 @@ describe DockingStation do
   it "raises an error when trying to dock at a station which already has more than DEFAULT_CAPACITY" do
     expect{test_station.dock_bike(Bike.new)}.to raise_error("The station is full")
   end
+
+  it "takes an argument for capacity over DEFAULT_CAPACITY" do
+    expect(DockingStation).to receive(:new).with(25)
+    DockingStation.new(25)
+  end
+
+  it 'changes capacity based on initialize argument' do
+    test_case = DockingStation.new(45)
+    expect(test_case.capacity).to eq 45
+  end
+
+  it 'capacity uses DEFAULT_CAPACITY when not passed an argument' do
+    test_case = DockingStation.new
+    expect(test_case.capacity).to eq 20
+  end
 end
 
 
