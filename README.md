@@ -222,4 +222,16 @@ I want a docking station to have a default capacity of 20 bikes.
 
 DONE#
 
-15. 
+15. The Single Responsibility Principle
+
+- [x] Define a full? predicate method that uses some of the dock code to return true or false depending on whether the station is full or not
+- [x]  Rewrite the guard condition of your dock method to incorporate your new full? method
+- [x]  Do the same for release_bike, using an empty? method
+- [x]  Use the private keyword to ensure these methods cannot be called from 'outside' instances of the DockingStation class.
+
+Use the Single Responsibility Principle
+Refactor code for readability
+
+DONE#
+
+16.
