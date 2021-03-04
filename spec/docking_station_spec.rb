@@ -32,12 +32,12 @@ require "docking_class.rb"
 # end
 
 describe "DockingStation" do
-  let(:test_station) {DockingStation.new}
+  let(:test_station) {DockingStation.new} #could create a before argument
   it "allows user to see a list of docked bikes" do
     expect(test_station.bikes).to eq []
   end
 
-  it 'throws an error when user tries to release non-existent bike'  do
+  it 'throws an error when user tries to release non-existent bike' do
     expect { test_station.release_bike }.to raise_error("No bikes available")
   end
 end
